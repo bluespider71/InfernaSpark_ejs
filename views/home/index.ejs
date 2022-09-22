@@ -1,0 +1,924 @@
+<%- include('includes/header.ejs') %>
+	<!-- main -->
+	<div id="app" data-server-rendered="true">
+		<!--[-->
+		<!---->
+		<!--[-->
+		<nav class="none" style="padding:0px 10px; position: fixed;z-index:999;background: rgba(245,245,245,0.7);backdrop-filter:blur(5px);background-color:none;color:black;box-shadow:none;">
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo" style="color:#FF7F00;font-weight:700;"><img src="assets/logo/logo.png"
+						width="40" style="transform:translateY(9px);margin-right:7.5px;" />SPARK</a>
+
+				<a href="#" class="sidenav-trigger" data-target="mobile-nav" style="color:#4a4a4a">
+					<i class="material-icons">menu</i>
+				</a>
+
+				<ul class="right hide-on-med-and-down ">
+					<li id="nohov"><a id="nohov" href="#app"
+							style="color:#4a4a4a;font-weight:600;padding-left:30px;padding-right:30px;text-align:center;">Home</a>
+					</li>
+					<li><a id="nohov" href="#features"
+							style="color:#4a4a4a;font-weight:600;padding-left:30px;padding-right:30px;text-align:center;">Features</a>
+					</li>
+					<li><a id="nohov" href="#faq"
+							style="color:#4a4a4a;font-weight:600;padding-left:30px;padding-right:30px;text-align:center;">FAQ</a>
+					</li>
+					<li><a id="nohov" href="docs.html"
+							style="color:#4a4a4a;font-weight:600;padding-left:30px;padding-right:30px;text-align:center;">Documentation</a>
+					</li>
+					<% if (profile) { %>
+						<li><a id="nohov" href="/dashboard"
+							style="color:#4a4a4a;font-weight:600;padding-left:30px;padding-right:30px;text-align:center;">Dashboard</a>
+					<% } else { %>
+						<li><a id="nohov" href="/sign"
+							style="color:#4a4a4a;font-weight:600;padding-left:30px;padding-right:30px;text-align:center;">Signin</a>
+					<% } %> 
+					
+				</li>
+				</ul>
+			</div>
+		</nav>
+
+		<ul class="sidenav" id="mobile-nav">
+			<li><a href="#app">Home</a></li>
+			<li><a href="#features">Features</a></li>
+			<li><a href="#faq">FAQ</a></li>
+			<li><a href="docs.html">Documentation</a></li>
+		</ul>
+		<div>
+			<section class="hero is-fullheight is-grey product-hero" data-v-2deebe8a>
+				<div class="starfall">
+					<!--[-->
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<div class="falling-star">
+					</div>
+					<!--]-->
+				</div>
+				<!---->
+				<!---->
+				<!---->
+				<!---->
+				<!---->
+				<!--[-->
+				<!--]-->
+				<div class="hero-body">
+					<div class="container">
+						<!--[-->
+						<!--[-->
+						<div class="columns is-vcentered" data-v-2deebe8a>
+							<div class="column is-5" data-v-2deebe8a>
+								<div class="hero-caption" data-v-2deebe8a>
+									<!--[-->
+									<h1 class="title is-2 is-bold shrinkit" data-v-2deebe8a data-v-30c713ee>
+										<!--[-->Protect Your Users With
+										<span style="color:#FF7F00;" data-v-2deebe8a>
+											<span data-v-2deebe8a>SPARK</span>
+										</span>
+										<!--]-->
+									</h1>
+									<!---->
+									<!---->
+									<!--]-->
+									<!--[-->
+									<!---->
+									<!---->
+									<p classes="b-centered-tablet-p text-medium"
+										style="color:var(--title-color);font-weight:bold;" class="subtitle is-5"
+										data-v-2deebe8a data-v-b8280776>
+										<!--[-->The Scam Protection and Rugpull Killer
+									</p>
+									<!--]-->
+									<div class="buttons is-relative z-1" data-v-2deebe8a>
+										<button id="hovbtn" class="button is-primary is-raised is-bold is-long-2"
+											data-v-2deebe8a data-v-1b296556>
+											<!---->
+											<!--[--><a href="#features">Learn More</a>
+											<!--]-->
+											<!---->
+										</button>
+										<button class="button is-elevated is-bold is-long-2" data-v-2deebe8a
+											data-v-1b296556>
+											<!---->
+											<!--[-->Demo (Coming soon)
+											<!--]-->
+											<!---->
+										</button>
+									</div>
+									<p classes="b-centered-tablet-p text-medium" class="subtitle is-5" data-v-2deebe8a
+										data-v-b8280776>
+										Stop fraud at its roots.
+										<!--]-->
+									</p>
+								</div>
+							</div>
+							<div class="column is-7" data-v-2901c284><br>
+								<div class="hero-composition-container" data-v-2901c284>
+									<div class="columns b-columns-half-tablet-p" data-v-2901c284>
+										<div class="column is-6" data-v-2901c284>
+											<div class="panel-card authors-card" data-v-2901c284>
+												<!--[-->
+												<!---->
+												<!---->
+												<h3 class="title is-5 is-bold" data-v-2901c284 data-v-30c713ee>
+													<!--[-->Spark the Party
+													<span data-v-2901c284>🎉</span>
+													<!--]-->
+												</h3>
+												<!--]-->
+												<div class="avatar-group is-compact" data-v-2901c284 data-v-989138ba>
+													<!--[-->
+													<div class="avatar is-medium" data-v-989138ba data-v-54025b54>
+														<!--[-->
+														<img src="/assets/nft/avatars/chomp.svg" class="avatar-image"
+															alt="placeholder" height="38" width="38" data-v-54025b54>
+														<!---->
+														<!--]-->
+													</div>
+													<div class="avatar is-medium" data-v-989138ba data-v-54025b54>
+														<!--[-->
+														<img src="/assets/nft/avatars/robot.svg" class="avatar-image"
+															alt="placeholder" height="38" width="38" data-v-54025b54>
+														<!---->
+														<!--]-->
+													</div>
+													<div class="avatar is-medium" data-v-989138ba data-v-54025b54>
+														<!--[-->
+														<img src="/assets/nft/avatars/reaper.svg" class="avatar-image"
+															alt="placeholder" height="38" width="38" data-v-54025b54>
+														<!---->
+														<!--]-->
+													</div>
+													<div class="avatar is-medium" data-v-989138ba data-v-54025b54>
+														<!--[-->
+														<img src="/assets/nft/avatars/cat.svg" class="avatar-image"
+															alt="placeholder" height="38" width="38" data-v-54025b54>
+														<!---->
+														<!--]-->
+													</div>
+													<div class="avatar is-medium" data-v-989138ba data-v-54025b54>
+														<!--[-->
+														<img src="/assets/nft/avatars/egg.svg" class="avatar-image"
+															alt="placeholder" height="38" width="38" data-v-54025b54>
+														<!---->
+														<!--]-->
+													</div>
+													<!--]-->
+													<!---->
+												</div>
+											</div>
+											<div class="nft-card" data-v-2901c284>
+												<img class="block" src="assets/nft/2.png" width="600" height="510"
+													loading="lazy" data-v-2901c284 data-v-2da3de7e>
+												<div class="card-head" data-v-2901c284>
+
+												</div>
+												<div class="card-foot" data-v-2901c284>
+													<div class="price" data-v-2901c284>
+														<span data-v-2901c284>0.75 ETH</span>
+													</div>
+													<div class="likes" data-v-2901c284>
+														<svg preserveaspectratio="xMidYMid meet" viewbox="0 0 16 16"
+															width="1.2em" height="1.2em" class="rem-80 text-danger"
+															data-v-2901c284>
+															<path fill="currentColor" fill-rule="evenodd"
+																d="M8 1.314C12.438-3.248 23.534 4.735 8 15C-7.534 4.736 3.562-3.248 8 1.314z">
+															</path>
+														</svg>
+														<span data-v-2901c284>29K Likes</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="column is-6" data-v-2901c284>
+											<div class="nft-card" data-v-2901c284>
+												<img class="block" src="assets/nft/1.png" width="600" height="510"
+													loading="lazy" data-v-2901c284 data-v-2da3de7e>
+												<div class="card-head" data-v-2901c284>
+
+												</div>
+												<div class="card-foot" data-v-2901c284>
+													<div class="price" data-v-2901c284>
+														<span data-v-2901c284>0.45 ETH</span>
+													</div>
+													<div class="likes" data-v-2901c284>
+														<svg preserveaspectratio="xMidYMid meet" viewbox="0 0 16 16"
+															width="1.2em" height="1.2em" class="rem-80 text-danger"
+															data-v-2901c284>
+															<path fill="currentColor" fill-rule="evenodd"
+																d="M8 1.314C12.438-3.248 23.534 4.735 8 15C-7.534 4.736 3.562-3.248 8 1.314z">
+															</path>
+														</svg>
+														<span data-v-2901c284>13K Likes</span>
+													</div>
+												</div>
+											</div>
+											<div class="panel-card popular-card" data-v-2901c284>
+												<div class="avatar is-medium" data-v-2901c284 data-v-54025b54>
+													<!--[-->
+													<img src="favicon.png" class="avatar-image" alt="placeholder"
+														height="38" width="38" data-v-54025b54>
+													<!---->
+													<!--]-->
+												</div>
+												<p
+													style="font-size:18px;font-weight:700;color:var(--title-color);padding-left:10px;">
+													Protect the Market</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--]-->
+						<!--]-->
+					</div>
+				</div>
+				<!---->
+			</section>
+			<div class="section" data-v-04466fbe>
+				<!---->
+				<!--[-->
+				<!--]-->
+				<div class="section-content" data-v-04466fbe>
+					<!--[-->
+					<div class="container">
+						<!--[-->
+						<div class="has-text-centered">
+							<!--[-->
+							<h3 class="subtitle is-5 is-bold" data-v-b8280776>
+								<!--[-->
+								<span class="text-gradient">
+									<!--[-->Build your Business
+									<!--]-->
+								</span>
+								<!--]-->
+							</h3>
+							<!---->
+							<!---->
+							<!--]-->
+							<!--[-->
+							<!---->
+							<h2 style="z-index:9999999;" class="title is-3 is-bold" data-v-30c713ee>
+								<!--[-->
+								<span>
+									<!--[-->Protect your Platform
+									<!--]-->
+								</span>
+								<!--]-->
+							</h2>
+							<!---->
+							<!--]-->
+						</div>
+						<div class="app-section" data-v-69a293ca>
+
+							<div class="shape-2" data-v-69a293ca>
+							</div>
+							<div class="columns is-multiline py-6" data-v-69a293ca>
+								<div class="column is-12" data-v-69a293ca>
+									<div class="is-relative block mb-4 has-text-centered mx-auto max-w-8"
+										data-v-69a293ca>
+										<div class="full-circle-1 text-success" data-v-69a293ca>
+											<svg xmlns="http://www.w3.org/2000/svg" width="33.83" height="44.928"
+												viewbox="0 0 33.83 44.928" data-v-69a293ca data-v-4cb4e8c5>
+												<g id="Group_9" data-name="Group 9"
+													transform="translate(-214.172 -157.4)" data-v-4cb4e8c5>
+													<path id="Path_27" data-name="Path 27"
+														d="M242.2,174.7a16.337,16.337,0,1,1-23.1-.4A16.3,16.3,0,0,1,242.2,174.7Z"
+														class="full-circle" data-v-4cb4e8c5>
+													</path>
+													<g id="Group_8" data-name="Group 8" data-v-4cb4e8c5>
+														<g id="Group_7" data-name="Group 7" data-v-4cb4e8c5>
+															<path id="Path_28" data-name="Path 28"
+																d="M231.6,158.2h0a15.191,15.191,0,0,1,11.2,4.8,15.5,15.5,0,0,1-11.2,26.3,15.533,15.533,0,0,1-15.5-15.9,15.474,15.474,0,0,1,4.8-10.9,15.3,15.3,0,0,1,10.7-4.3m0-.8a16.05,16.05,0,0,0-11.3,4.6,16.35,16.35,0,0,0,11.4,28.1,16.05,16.05,0,0,0,11.3-4.6,16.35,16.35,0,0,0-11.4-28.1Z"
+																class="outline-circle" data-v-4cb4e8c5>
+															</path>
+														</g>
+													</g>
+												</g>
+											</svg>
+										</div>
+										<div class="full-circle-2 text-primary" data-v-69a293ca>
+											<svg xmlns="http://www.w3.org/2000/svg" width="33.83" height="44.928"
+												viewbox="0 0 33.83 44.928" data-v-69a293ca data-v-4cb4e8c5>
+												<g id="Group_9" data-name="Group 9"
+													transform="translate(-214.172 -157.4)" data-v-4cb4e8c5>
+													<path id="Path_27" data-name="Path 27"
+														d="M242.2,174.7a16.337,16.337,0,1,1-23.1-.4A16.3,16.3,0,0,1,242.2,174.7Z"
+														class="full-circle" data-v-4cb4e8c5>
+													</path>
+													<g id="Group_8" data-name="Group 8" data-v-4cb4e8c5>
+														<g id="Group_7" data-name="Group 7" data-v-4cb4e8c5>
+															<path id="Path_28" data-name="Path 28"
+																d="M231.6,158.2h0a15.191,15.191,0,0,1,11.2,4.8,15.5,15.5,0,0,1-11.2,26.3,15.533,15.533,0,0,1-15.5-15.9,15.474,15.474,0,0,1,4.8-10.9,15.3,15.3,0,0,1,10.7-4.3m0-.8a16.05,16.05,0,0,0-11.3,4.6,16.35,16.35,0,0,0,11.4,28.1,16.05,16.05,0,0,0,11.3-4.6,16.35,16.35,0,0,0-11.4-28.1Z"
+																class="outline-circle" data-v-4cb4e8c5>
+															</path>
+														</g>
+													</g>
+												</g>
+											</svg>
+										</div>
+										<div class="full-circle-3 text-yellow" data-v-69a293ca>
+											<svg xmlns="http://www.w3.org/2000/svg" width="33.83" height="44.928"
+												viewbox="0 0 33.83 44.928" data-v-69a293ca data-v-4cb4e8c5>
+												<g id="Group_9" data-name="Group 9"
+													transform="translate(-214.172 -157.4)" data-v-4cb4e8c5>
+													<path id="Path_27" data-name="Path 27"
+														d="M242.2,174.7a16.337,16.337,0,1,1-23.1-.4A16.3,16.3,0,0,1,242.2,174.7Z"
+														class="full-circle" data-v-4cb4e8c5>
+													</path>
+													<g id="Group_8" data-name="Group 8" data-v-4cb4e8c5>
+														<g id="Group_7" data-name="Group 7" data-v-4cb4e8c5>
+															<path id="Path_28" data-name="Path 28"
+																d="M231.6,158.2h0a15.191,15.191,0,0,1,11.2,4.8,15.5,15.5,0,0,1-11.2,26.3,15.533,15.533,0,0,1-15.5-15.9,15.474,15.474,0,0,1,4.8-10.9,15.3,15.3,0,0,1,10.7-4.3m0-.8a16.05,16.05,0,0,0-11.3,4.6,16.35,16.35,0,0,0,11.4,28.1,16.05,16.05,0,0,0,11.3-4.6,16.35,16.35,0,0,0-11.4-28.1Z"
+																class="outline-circle" data-v-4cb4e8c5>
+															</path>
+														</g>
+													</g>
+												</g>
+											</svg>
+										</div>
+										<div class="half-circle-1 text-info" data-v-69a293ca>
+											<svg xmlns="http://www.w3.org/2000/svg" width="55.844" height="54.944"
+												viewbox="0 0 55.844 54.944" data-v-69a293ca data-v-f428ab94>
+												<path id="Path_33" data-name="Path 33"
+													d="M315.9,118.4a32.508,32.508,0,0,0-.9,45.9l46.8-45A32.506,32.506,0,0,0,315.9,118.4Z"
+													transform="translate(-305.956 -109.356)" data-v-f428ab94>
+												</path>
+											</svg>
+										</div>
+										<div data-v-69a293ca>
+											<img class="block is-16by9 is-relative z-1 has-light-shadow app-mockup"
+												src="/assets/illustrations/apps/commerce-app.png" alt="App mockup"
+												width="1200" height="882" loading="lazy" data-v-69a293ca
+												data-v-2da3de7e>
+										</div>
+										<div class="columns has-text-left b-columns-third-tablet-p mt-4"
+											data-v-69a293ca>
+											<!--[-->
+											<div class="column is-4" data-v-69a293ca>
+												<div class="media" data-v-69a293ca>
+													<div class="media-content" data-v-69a293ca>
+														<!--[-->
+														<!---->
+														<!---->
+														<h3 class="title is-5 is-semi" data-v-69a293ca data-v-30c713ee>
+															<!--[-->
+															<span data-v-69a293ca>Simple</span>
+															<!--]-->
+														</h3>
+														<!--]-->
+														<p class="subtitle is-6 text-medium" data-v-69a293ca>Our API is
+															very easy to impliment and will take you virtually no time.
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="column is-4" data-v-69a293ca>
+												<div class="media" data-v-69a293ca>
+													<div class="media-content" data-v-69a293ca>
+														<!--[-->
+														<!---->
+														<!---->
+														<h3 class="title is-5 is-semi" data-v-69a293ca data-v-30c713ee>
+															<!--[-->
+															<span data-v-69a293ca>Cheap</span>
+															<!--]-->
+														</h3>
+														<!--]-->
+														<p class="subtitle is-6 text-medium" data-v-69a293ca>For only
+															cents per use, your profits will be near untouched.</p>
+													</div>
+												</div>
+											</div>
+											<div class="column is-4" data-v-69a293ca>
+												<div class="media" data-v-69a293ca>
+													<div class="media-content" data-v-69a293ca>
+														<!--[-->
+														<!---->
+														<!---->
+														<h3 class="title is-5 is-semi" data-v-69a293ca data-v-30c713ee>
+															<!--[-->
+															<span data-v-69a293ca>Secure</span>
+															<!--]-->
+														</h3>
+														<!--]-->
+														<p class="subtitle is-6 text-medium" data-v-69a293ca>Supported
+															by industry leaders, our technology is reliable and fool
+															proof.</p>
+													</div>
+												</div>
+											</div>
+											<!--]-->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--]-->
+					</div>
+					<!--]-->
+				</div>
+				<!---->
+				<!---->
+				<!---->
+				<!---->
+			</div>
+			<div class="section" id="features" data-v-04466fbe>
+				<!---->
+				<!--[-->
+				<!--]-->
+				<div class="section-content" data-v-04466fbe>
+					<!--[-->
+					<div class="container">
+						<!--[-->
+						<div class="side-section mobile:py-0 small:py-6 z-1" data-v-132740da>
+							<div class="columns is-vcentered b-columns-half-tablet-p" data-v-132740da>
+								<div class="column is-6" data-v-132740da>
+									<div class="max-w-5" data-v-132740da>
+										<!--[-->
+										<h3 class="pb-4 subtitle is-6 is-bold is-leading pb-4" data-v-132740da
+											data-v-b8280776>
+											<!--[-->
+											<span class="text-gradient" data-v-132740da>Start your Business</span>
+											<!--]-->
+										</h3>
+										<!---->
+										<!---->
+										<!--]-->
+										<!--[-->
+										<!---->
+										<h2 class="title is-3 is-semi is-leading" data-v-132740da data-v-30c713ee>
+											<!--[-->Defend Your Users
+											<!--]-->
+										</h2>
+										<!---->
+										<!--]-->
+										<!--[-->
+										<p class="paragraph rem-95 mb-4" data-v-132740da>With the rapid increase in NFT
+											scams, protecting your platform and users has never been more needed.</p>
+										<!--]-->
+										<!--[-->
+										<div class="columns is-multiline b-columns-half-tablet-p" data-v-132740da>
+											<!--[-->
+											<div class="column is-6" data-v-132740da>
+												<div class="py-2 medium:py-3" data-v-132740da>
+													<i class="iconify" data-icon="ion:storefront-outline"
+														data-v-132740da></i>
+													<!--[-->
+													<!---->
+													<!---->
+													<h3 class="title is-6 is-semi is-leading" data-v-132740da
+														data-v-30c713ee>
+														<!--[-->
+														<span data-v-132740da>Gain trust</span>
+														<!--]-->
+													</h3>
+													<!--]-->
+													<p class="paragraph rem-85 max-w-3" data-v-132740da>By using SPARK
+														you will show your users that they can trust your platform.</p>
+												</div>
+											</div>
+											<div class="column is-6" data-v-132740da>
+												<div class="py-2 medium:py-3" data-v-132740da>
+													<i class="iconify" data-icon="ion:save-outline" data-v-132740da></i>
+													<!--[-->
+													<!---->
+													<!---->
+													<h3 class="title is-6 is-semi is-leading" data-v-132740da
+														data-v-30c713ee>
+														<!--[-->
+														<span data-v-132740da>Dodge lawsuits</span>
+														<!--]-->
+													</h3>
+													<!--]-->
+													<p class="paragraph rem-85 max-w-3" data-v-132740da>Don't take the
+														fall for scams. SPARK prevents that from happening.</p>
+												</div>
+											</div>
+											<div class="column is-6" data-v-132740da>
+												<div class="py-2 medium:py-3" data-v-132740da>
+													<i class="iconify" data-icon="ion:brush-outline"
+														data-v-132740da></i>
+													<!--[-->
+													<!---->
+													<!---->
+													<h3 class="title is-6 is-semi is-leading" data-v-132740da
+														data-v-30c713ee>
+														<!--[-->
+														<span data-v-132740da>Super fast</span>
+														<!--]-->
+													</h3>
+													<!--]-->
+													<p class="paragraph rem-85 max-w-3" data-v-132740da>Just like
+														Cloudflare, our protection takes only seconds to do its job.</p>
+												</div>
+											</div>
+											<div class="column is-6" data-v-132740da>
+												<div class="py-2 medium:py-3" data-v-132740da>
+													<i class="iconify" data-icon="ion:calendar-outline"
+														data-v-132740da></i>
+													<!--[-->
+													<!---->
+													<!---->
+													<h3 class="title is-6 is-semi is-leading" data-v-132740da
+														data-v-30c713ee>
+														<!--[-->
+														<span data-v-132740da>Easy implementation</span>
+														<!--]-->
+													</h3>
+													<!--]-->
+													<p class="paragraph rem-85 max-w-3" data-v-132740da>Impliment the
+														tech easy peasy. Need help? You got us as well.</p>
+												</div>
+											</div>
+											<!--]-->
+										</div>
+										<!--]-->
+									</div>
+								</div>
+								<div class="column is-6 has-text-centered is-relative" data-v-132740da>
+									<div class="morphing-blob-wrapper" data-v-132740da data-v-34423847>
+										<div class="blob-inner levitate" data-v-34423847>
+											<svg class="organic-blob" width="300" height="300"
+												xmlns="http://www.w3.org/2000/svg" data-v-34423847>
+												<defs data-v-34423847>
+													<filter class="goo" data-v-34423847>
+														<feGaussianBlur in="SourceGraphic" stdDeviation="10"
+															result="blur" data-v-34423847>
+														</feGaussianBlur>
+														<feColorMatrix in="blur" mode="matrix"
+															values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+															result="goo" data-v-34423847>
+														</feColorMatrix>
+														<feComposite in="SourceGraphic" in2="goo" operator="atop"
+															data-v-34423847>
+														</feComposite>
+													</filter>
+												</defs>
+												<circle class="circle-1" cx="150" cy="145" r="100" data-v-34423847>
+												</circle>
+												<circle class="circle-2" cx="150" cy="155" r="100" data-v-34423847>
+												</circle>
+												<circle class="circle-3" cx="145" cy="150" r="100" data-v-34423847>
+												</circle>
+												<circle class="circle-4" cx="155" cy="150" r="100" data-v-34423847>
+												</circle>
+											</svg>
+										</div>
+									</div>
+									<img style="width:400px;height:400px;" class="block is-relative mx-auto"
+										src="/assets/illustrations/features/commerce-feature-1.png"
+										alt="side section image" width="360" height="315" loading="lazy" data-v-132740da
+										data-v-2da3de7e>
+								</div>
+							</div>
+						</div>
+						<!--]-->
+					</div>
+					<!--]-->
+				</div>
+				<!---->
+				<!---->
+				<!---->
+				<!---->
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div style="background-color:#FF7F00;" class="py-6" data-v-b0338eaa>
+				<div class="is-boxed is-default cta-block getblock" data-v-b0338eaa>
+					<div class="cta-content mx-auto max-w-4" data-v-b0338eaa>
+						<!--[-->
+						<!---->
+						<!---->
+						<h3 class="title is-3 is-semi" data-v-b0338eaa data-v-30c713ee>
+							<!--[-->
+							<span data-v-b0338eaa>Get Spark Now</span>
+							<!--]-->
+						</h3>
+						<!--]-->
+						<!--[-->
+						<h3 class="opacity-70 subtitle is-5 is-thin opacity-70" data-v-b0338eaa data-v-b8280776>
+							<!--[-->
+							<span data-v-b0338eaa>Make your platform safe with the best scam protection in the
+								industry.</span>
+							<!--]-->
+						</h3>
+						<!---->
+						<!---->
+						<!--]-->
+					</div>
+					<div class="buttons cta-content is-centered mt-5" data-v-b0338eaa>
+						<a id="hovbtn" href="mailto:jordan@inferna.io" class="button is-primary is-elevated is-long-2"
+							data-v-b0338eaa data-v-1b296556>
+							<!---->
+							<!--[-->Get Spark
+							<!--]-->
+							<!---->
+						</a>
+					</div>
+					<div class="box-shape box-shape-1" data-v-b0338eaa>
+					</div>
+					<div class="box-shape box-shape-2" data-v-b0338eaa>
+					</div>
+					<div class="box-shape box-shape-3" data-v-b0338eaa>
+					</div>
+					<div class="box-shape box-shape-4" data-v-b0338eaa>
+					</div>
+					<div class="box-shape box-shape-5" data-v-b0338eaa>
+					</div>
+					<div class="box-shape box-shape-6" data-v-b0338eaa>
+					</div>
+				</div>
+			</div>
+			<!--]-->
+		</div>
+		<!--]-->
+	</div>
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	</div>
+	<div class="section is-grey section-wave-1" id="faq" data-v-04466fbe>
+		<!---->
+		<!--[-->
+		<!--]-->
+		<div class="section-content" data-v-04466fbe>
+			<!--[-->
+			<div class="container">
+				<!--[-->
+				<div class="has-text-centered">
+					<!--[-->
+					<h3 class="subtitle is-5 is-bold" data-v-b8280776>
+						<!--[-->
+						<span class="text-gradient">
+							<!--[-->Frequently Asked
+							<!--]-->
+						</span>
+						<!--]-->
+					</h3>
+					<!---->
+					<!---->
+					<!--]-->
+					<!--[-->
+					<!---->
+					<h2 class="title is-3 is-bold" data-v-30c713ee>
+						<!--[-->
+						<span>
+							<!--[-->Take the time to read our FAQs
+							<!--]-->
+						</span>
+						<!--]-->
+					</h2>
+					<!---->
+					<!--]-->
+				</div>
+				<div class="py-6">
+					<div class="columns">
+						<div class="column is-5 is-offset-1" style="text-align:left;">
+							<!--[-->
+							<details class="has-chevron collapse">
+								<!--[-->
+								<summary class="collapse-header" tabindex="0">
+									<h3 style="float:left;margin-left:2px;text-align:left;">
+										<!--[-->How much does it cost?
+										<!--]-->
+									</h3>
+									<div class="collapse-icon">
+										<span data-v-6195ce11>
+											<i aria-hidden="true" class="iconify" data-icon="feather:chevron-down"
+												data-v-6195ce11></i>
+										</span>
+									</div>
+								</summary>
+								<div class="collapse-content">
+									<p>
+										<!--[-->Minting costs users an average of $70.00 to $300.00 USD but SPARK only
+										takes a cut of $0.25 for every NFT minted! The price of a gumball.
+										<!--]-->
+									</p>
+								</div>
+								<!--]-->
+							</details>
+							<details class="has-chevron collapse">
+								<!--[-->
+								<summary class="collapse-header" tabindex="0">
+									<h3 style="float:left;margin-left:2px;text-align:left;">
+										<!--[-->How long does it take to impliment?
+										<!--]-->
+									</h3>
+									<div class="collapse-icon">
+										<span data-v-6195ce11>
+											<i aria-hidden="true" class="iconify" data-icon="feather:chevron-down"
+												data-v-6195ce11></i>
+										</span>
+									</div>
+								</summary>
+								<div class="collapse-content">
+									<p>
+										<!--[-->Less than 30 minutes if you already have a developer, or for a plugin
+										fee of $100.00, we can do it for you within the day.
+										<!--]-->
+									</p>
+								</div>
+								<!--]-->
+							</details>
+							<details class="has-chevron collapse">
+								<!--[-->
+								<summary class="collapse-header" tabindex="0">
+									<h3 style="float:left;margin-left:2px;text-align:left;">
+										<!--[-->How does it differ from other tools?
+										<!--]-->
+									</h3>
+									<div class="collapse-icon">
+										<span data-v-6195ce11>
+											<i aria-hidden="true" class="iconify" data-icon="feather:chevron-down"
+												data-v-6195ce11></i>
+										</span>
+									</div>
+								</summary>
+								<div class="collapse-content">
+									<p>
+										<!--[-->At the time of writing, there is no competitor to SPARK. Opensea has
+										tried to create something similar, but it is not fully automatic, nor useable by
+										other NFT markets.
+										<!--]-->
+									</p>
+								</div>
+								<!--]-->
+							</details>
+							<!--]-->
+						</div>
+						<div class="column is-5">
+							<!--[-->
+							<details class="has-chevron collapse">
+								<!--[-->
+								<summary class="collapse-header" tabindex="0">
+									<h3 style="float:left;margin-left:2px;text-align:left;">
+										<!--[-->How does it work?
+										<!--]-->
+									</h3>
+									<div class="collapse-icon">
+										<span data-v-6195ce11>
+											<i aria-hidden="true" class="iconify" data-icon="feather:chevron-down"
+												data-v-6195ce11></i>
+										</span>
+									</div>
+								</summary>
+								<div class="collapse-content">
+									<p>
+										<!--[-->In seconds any uploaded NFT goes through automatic background checks,
+										where our AI searches on all other NFT markets for duplicates. Straight forward
+										and so simple.
+										<!--]-->
+									</p>
+								</div>
+								<!--]-->
+							</details>
+							<details class="has-chevron collapse">
+								<!--[-->
+								<summary class="collapse-header" tabindex="0">
+									<h3 style="float:left;margin-left:2px;text-align:left;">
+										<!--[-->Can I try it for free?
+										<!--]-->
+									</h3>
+									<div class="collapse-icon">
+										<span data-v-6195ce11>
+											<i aria-hidden="true" class="iconify" data-icon="feather:chevron-down"
+												data-v-6195ce11></i>
+										</span>
+									</div>
+								</summary>
+								<div class="collapse-content">
+									<p>
+										<!--[-->At the moment, as we are still in the process of fundraising we cannot
+										offer free trials at this time, but that will definitely offer that in the near
+										future.
+										<!--]-->
+									</p>
+								</div>
+								<!--]-->
+							</details>
+							<details class="has-chevron collapse">
+								<!--[-->
+								<summary class="collapse-header" tabindex="0">
+									<h3 style="float:left;margin-left:2px;text-align:left;">
+										<!--[-->Do we have to use your branding?
+										<!--]-->
+									</h3>
+									<div class="collapse-icon">
+										<span data-v-6195ce11>
+											<i aria-hidden="true" class="iconify" data-icon="feather:chevron-down"
+												data-v-6195ce11></i>
+										</span>
+									</div>
+								</summary>
+								<div class="collapse-content">
+									<p>
+										<!--[-->No. It is completely optional for you to use the API with our logo, but
+										we do ask to showcase your company on our list of partners in the website.
+										<!--]-->
+									</p>
+								</div>
+								<!--]-->
+							</details>
+							<!--]-->
+						</div>
+					</div>
+				</div>
+				<!--]-->
+			</div>
+			<!--]-->
+		</div>
+		<div class="section-wave" data-v-04466fbe>
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320" data-v-04466fbe data-v-0accc6dc>
+				<path class="wave-white" fill-opacity="1"
+					d="M0,224L60,224C120,224,240,224,360,229.3C480,235,600,245,720,234.7C840,224,960,192,1080,197.3C1200,203,1320,245,1380,266.7L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+					data-v-0accc6dc>
+				</path>
+			</svg>
+		</div>
+		<!---->
+		<!---->
+		<!---->
+	</div>
+	<%- include('includes/footer.ejs') %>

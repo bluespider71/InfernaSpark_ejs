@@ -1,0 +1,1 @@
+import{e as t,v as n,o as e,f as a,F as _,G as p,g as l,D as c}from"./index.65d9db8a.js";const d=n({props:{darker:{type:Boolean,default:!1}},setup(s){const r=s;return(u,i)=>(e(),a("div",{class:c(["polka-dots",r.darker&&"darker"])},[(e(),a(_,null,p(16,o=>l("span",{key:o})),64))],2))}});var m=t(d,[["__scopeId","data-v-4e253d4e"]]);export{m as _};

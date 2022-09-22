@@ -1,0 +1,1 @@
+import{_ as o}from"./map.9c19eba0.js";import{e as t,v as _,y as n,o as p,f as r,D as c,A as l}from"./index.65d9db8a.js";const m=_({props:{light:{type:Boolean,default:!1}},setup(e){const s=e,a=n(()=>[s.light&&"is-light"]);return(i,u)=>(p(),r("img",{class:c(["map-bg z-0",l(a)]),src:o,alt:"map background"},null,2))}});var g=t(m,[["__scopeId","data-v-2a4bcb13"]]);export{g as _};
